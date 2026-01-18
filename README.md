@@ -2,6 +2,8 @@ This is a pair of scripts to align car photos (crop and rotate), then combine th
 
 These were created to avoid manually cropping and rotating my photos from ELMS Silverstone 2025 to create the montage below - although it's still a relatively manual process to mark the coordinates of each photo. Because of this, the scripts are quite scrappy and have some hard-coded constants (only the car types racing at ELMS, car dimensions etc.). Whenever I get the opportunity to go to another race weekend, I may consider refactoring this project into something more generalisable. However, it's more likely that I'll train my own machine learning model to align the photos for me automatically now that this project gave me a dataset of almost 800 photos.
 
+https://github.com/user-attachments/assets/d3aece5b-32f8-48d4-b1f6-b34b6f6a067f
+
 ### AlignCarPhotos
 
 This has a GUI that iterates through all the photos in the specified folder, to select 4 points on each car.
