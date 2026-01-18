@@ -1,6 +1,8 @@
 This is a pair of scripts to align car photos (crop and rotate), then combine them into a photo slideshow/montage.
 
-**AlignCarPhotos**
+These were created to avoid manually cropping and rotating my photos from ELMS Silverstone 2025 to create the montage below - although it's still a relatively manual process to mark the coordinates of each photo. Because of this, the scripts are quite scrappy and have some hard-coded constants (only the car types racing at ELMS, car dimensions etc.). Whenever I get the opportunity to go to another race weekend, I may consider refactoring this project into something more generalisable. However, it's more likely that I'll train my own machine learning model to align the photos for me automatically now that this project gave me a dataset of almost 800 photos.
+
+### AlignCarPhotos
 
 This has a GUI that iterates through all the photos in the specified folder, to select 4 points on each car.
 
@@ -14,7 +16,7 @@ Once the GUI is exited, the images are cropped and rotated to align them using t
 
 *Note: There is also a "normalise brightness" autocontrast function that attempts to normalise the brightness between each photo - but I think this should be removed and this can be done better by batch editing in an actual photo editing program.*
 
-**PhotoSlideshow**
+### PhotoSlideshow
 
 This combines the aligned photos into a slideshow/montage at the specified framerate.
 
